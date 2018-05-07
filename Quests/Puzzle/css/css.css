@@ -30,14 +30,18 @@ img {
 .help_div {
     width: 140px;
     height: 55px;
-    background: green;
+    background: #297C37;
     color: white;
     line-height: 55px;
     text-align: center;
     font-weight: bold;
     margin-left: calc(35% - 70px);
+    cursor: pointer;
+    transition: .3s;
 }
-
+.help_div:hover{
+    background: #349744;
+}
 .show {
     margin-right: 50px;
     display: inline-block;
