@@ -174,7 +174,7 @@ function newPos(x,y) {
     $(".cell:eq(" + cellPos + ")").addClass("player");
 
     if (playerX === 3*(M+1) && playerY === 2 ) {
-        alert("Победа!");
+        $('.ButtonOfQuest3').prop("disabled",false);
     }
 }
 
