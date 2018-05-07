@@ -174,6 +174,8 @@ function newPos(x,y) {
     $(".cell:eq(" + cellPos + ")").addClass("player");
 
     if (playerX === 3*(M+1) && playerY === 2 ) {
+        $('.ButtonOfQuest3').removeClass('btn-danger');
+        $('.ButtonOfQuest3').addClass('btn-primary');
         $('.ButtonOfQuest3').prop("disabled",false);
     }
 }

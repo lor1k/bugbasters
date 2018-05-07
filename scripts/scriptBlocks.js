@@ -27,9 +27,14 @@ function quest1(){
   		if ((general.top+150) < (bl7.top+40) && (general.top+150) < (bl8.top+40) && (general.top+150) < (bl9.top+40)) {
          document.getElementById('general-quest1').style.background = "#dfd";
          $(".ButtonOfQuest1").prop('disabled',false);
+         $(".ButtonOfQuest1").addClass('btn-primary');
+         $(".ButtonOfQuest1").removeClass('btn-danger');
+         
         // location.href = "../Labirint/Labirint/labirint.html";
   		} else {document.getElementById('general-quest1').style.background = "#fdd";
-    $(".ButtonOfQuest1").prop('disabled',true);
+    $(".ButtonOfQuest1").prop('disabled',true); 
+    $(".ButtonOfQuest1").addClass('btn-danger');
+    $(".ButtonOfQuest1").removeClass('btn-primary');
   }
 	}
 }
