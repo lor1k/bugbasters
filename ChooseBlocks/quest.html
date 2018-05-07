@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style/style.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+     <script src="../scripts/script.js"></script>
+     <script src="../scripts/scriptBlocks.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+  <a href="../index.html" class="active">Головна</a>
+  <a href="../search.html">Пошук</a>
+  <a href="../faq.html">FAQ</a> 
+  <a href="javascript:void(0);" style="font-size:17px;" class="icon" onclick="Navigation();">&#9776;</a>
+  <a href="../registration.html" class = "sign-up">Sign Up</a>
+  <a href="../login.html" class = "log-in">Log In</a>
+</div>
+<div class="container">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Congratulations!!!</h4>
+        </div>
+        <div class="modal-body">
+          <p>Молодець, а тепер потрібно віднести ці документи до кабинету Приймальної комісії (Кабінет 304)! Він знаходиться на правому верхньому куті будівлі. Успіху.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.href='../Labirint/Labirint/labirint.html'">Зрозумів!</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+  <div class="block text-center" id = "general-quest1" style = "height: 150px; border: 2px solid green; margin-top: 20px;" onmouseenter="quest1();">Перетягніть потрібні документи для вступу в цей блок</div>
+  <div class="container quest1" style = "margin-top: 100px;">
+    <div class="row">
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block1" onmousedown="dragOBJ(this,event); return false;">Документ, що посвідчує особу</div><br/>
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block2" onmousedown="dragOBJ(this,event); return false;">Військовий квитка або посвідчення про приписку</div><br/>
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block7" onmousedown="dragOBJ(this,event); return false;">Атестат за 9 клас</div><br/>
+    </div>
+    <div class="row">
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block3" onmousedown="dragOBJ(this,event); return false;">Документ державного зразка про раніше здобутий освітній рівень</div><br/>
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block8" onmousedown="dragOBJ(this,event); return false;">Дозвіл на зброю</div><br/>
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block4" onmousedown="dragOBJ(this,event); return false;">Додаток про раніше здобутий освітній рівень</div><br/>
+    </div>
+    <div class="row">
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block9" onmousedown="dragOBJ(this,event); return false;">Довідка про доходи</div><br/>
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block5" onmousedown="dragOBJ(this,event); return false;">Сертифікат ЗНО</div><br/>
+    <div style="position: relative; top: 0; left: 0; border: 1px solid black; padding: 10px;" id = "quest-block6" onmousedown="dragOBJ(this,event); return false;">Чотири кольорові фотокартки(3x4см)</div><br/>
+    </div>
+    </div>
+    <input class = "btn btn-block btn-primary ButtonOfQuest1" type="button" data-toggle="modal" data-target="#myModal" value = "Далі >>" style = "margin-top: 30px;" disabled>
+  
+
+</body>

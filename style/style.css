@@ -1,0 +1,130 @@
+.reg-block{
+    position: relative;
+    margin-top: 10%;
+}
+.reg-form{
+    border: 3px solid MediumVioletRed;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.jumbotron > h1{
+    font-family: 'Philosopher', sans-serif;
+    color: blue;
+    text-shadow: 3px 3px 3px yellow;
+}
+.text-main{
+    font-family: 'Limelight', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.Add-reg{
+    display: none;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav .sign-up, .topnav .log-in{
+    float: right;
+}
+.log-in-text{
+    font-family: 'Black Ops One';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.active {
+  background-color: blue;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a:hover{
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child){
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {float: none;}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: #333;
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+.panel-body{
+    margin: 10px;
+    background-color: #EAFCF8;
+    padding: 10px;
+    border-radius: 15px;
+}
+.search-block > div{
+    margin-top: 10px;
+    max-width: auto;
+}
+.search-content > div{
+    background-color: #F2F2F2;
+    margin-top: 15px;
+    padding: 10px;
+}
+.search-content > div:hover {
+    margin-left: 5px;
+    border-left: solid 10px #1EA8EE;
+    transition: .3s;
+}
+.content-choose{
+    margin-top: 20px;
+}
+.content-choose > div{
+    margin-top: 20px;
+    text-align: center;
+}
+.quest1 > div > div{
+    background-color: pink;
+    margin: 3px;
+}

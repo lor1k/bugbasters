@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Конструктор лабиринта</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="wrapper">
+        <select id="select" onchange="setSize()">
+            <option value="1">10x15</option>
+            <option value="2">12x15</option>
+            <option value="3">20x30</option>
+        </select></br>
+        <div id="field"></div>
+        <div id="apply" onclick="gen()">Сгенерировать</div>
+        <div id="JSON"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

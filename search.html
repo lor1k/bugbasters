@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+     <script src="scripts/script.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Головна</a>
+  <a href="search.html" style = "background-color: #555;">Пошук</a>
+  <a href="faq.html">FAQ</a> 
+  <a href="javascript:void(0);" style="font-size:17px;" class="icon" onclick="Navigation();">&#9776;</a>
+  <a href="registration.html" class = "sign-up">Sign Up</a>
+  <a href="login.html" class = "log-in">Log In</a>
+</div>
+<div class="container-fluid text-center jumbotron" style = "background-color: #e9ecef">
+    <div class="row search-block">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+         <select class="selectpicker" data-live-search="true" id = "select1">
+          <option selected>Фах(не обрано) : </option>
+          <option>Комп'ютерні науки</option>
+          <option>Менеджмент</option>
+      </select>
+    </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <select class="selectpicker" data-live-search="true" id = "select1">
+          <option selected>Спеціальність(не обрано) : </option>
+          <option>121 - Програмна інженерія</option>
+          <option>122 - Комп'ютерні науки</option>
+      </select>
+    </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <select class="selectpicker" data-live-search="true" id = "select1">
+          <option selected>Місто(не обрано) : </option>
+          <option>Миколаїв</option>
+          <option>Київ</option>
+      </select>
+    </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <select class="selectpicker" data-live-search="true" id = "select1">
+          <option selected>ВНЗ(не обрано) : </option>
+          <option>ЧНУ ім. Петра Могили</option>
+      </select>
+    </div>
+    </div>
+</div>
+<div class="container search-content">
+  <div class="row" onclick="location.href='CHNU.html'">
+      <div class = "col-lg-2 align-self-center text-center">
+    <img src="img/temp_logo.png" alt="img1" class = "item" style = "height: 100px;"></div>
+      <div class = "col-lg-10"><h4>ЧНУ ім.Петра Могили</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eligendi, laudantium eius dignissimos unde cumque vero. Eius quod aperiam exercitationem quidem cum porro dolor ea, beatae quaerat fugit, consequatur odio ratione, vero deleniti ipsa officiis enim in ipsam, inventore quo laboriosam consectetur sed! Sapiente tenetur, culpa laboriosam? Perspiciatis sint deleniti totam nostrum cumque, velit provident porro dolorum delectus voluptas voluptatum.</div>
+  </div>
+  <div class="row" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, animi repellat beatae rerum harum nisi tempora, earum veniam modi, dolore iusto sit voluptate eius magni porro quidem quae libero delectus cum temporibus pariatur. Porro necessitatibus corporis, laborum commodi veniam tempora. Explicabo inventore facilis rem neque, architecto, pariatur eaque ea. Quae.</div>
+  <div class="row" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas numquam sunt excepturi voluptatum praesentium dolorem ratione deserunt quo asperiores corporis, reiciendis nesciunt eius cumque reprehenderit libero rem vitae, quasi tempore velit eum expedita accusamus! Ratione dicta, labore autem saepe quidem voluptates placeat est et nam molestias! Tenetur esse, eveniet ad!</div>
+  <div class="row" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eligendi consequuntur quaerat laborum nobis soluta modi nostrum voluptates iusto atque tempora minima quas, consequatur ut architecto ducimus est temporibus quis excepturi ad accusantium officia autem saepe cupiditate. Cum voluptates, labore odit. Voluptatem, perferendis, fuga optio velit quo est tenetur beatae.</div>
+</div>
+</body>
