@@ -6,10 +6,13 @@
     <link href="css/css.css" rel="stylesheet">
     <link rel="stylesheet" href="../../style/style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery-latest.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.puzzle.js"></script>
+    <script src = "../../scripts/script.js"></script>
 </head>
-
 <body>
 <div class="topnav" id="myTopnav">
   <a href="../../index.html" class="active">Головна</a>
@@ -19,6 +22,45 @@
   <a href="../../registration.html" class = "sign-up">Sign Up</a>
   <a href="../../login.html" class = "log-in">Log In</a>
 </div>
+<div class="container">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">ТИ ВЖЕ ЗДАВ ЗНО?</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#myModal1">Так!</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">Ні!</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+<div class="container">
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">Вітаю! А Ваня тільки зустрівся зі складними завданням. Йому точно потрібна допомога людини, яка не новачок в цьому. Допоможи Іванові розв’язати тести.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.href='../ZNO/zno.html'">Зрозумів!</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+<div class="container">
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">О-о! Тебе ще чекає складне випробування! Але Іванові вже прийшли завдання і він зовсім не може впоратись з ним. Допоможи йому! Для тебе це буде непоганим тренуванням перед власними тестами.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.href='../ZNO/zno.html'">Зрозумів!</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
     <div class="wrapper">
         <div id="content">
             <div class="puzzle">
@@ -27,12 +69,12 @@
         </div>
     </div>
     <div class="right">
-        <div class="show">
+        <div class="takeit">
             <div class="help_div" onclick="show()">Показать</div>
             <img class="help_img hidden" src="img/doc.png" alt="Original">
         </div>
     </div>
-    <script type="text/javascript" src="js/jquery-latest.pack.js"></script>
-    <script type="text/javascript" src="js/jquery.puzzle.js"></script>
+    <input class = "btn btn-block btn-danger" type="button" data-toggle="modal" data-target="#myModal" value = "Далі >>" style = "margin-top: 30px;">
+
 </body>
 </html>
