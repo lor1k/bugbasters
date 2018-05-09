@@ -1,0 +1,20 @@
+.result_screen{
+    margin: 30px auto;
+    display: block;
+
+}
+
+.result_screen>p{
+    margin: auto;
+    color: #000000;
+    font-weight: 600;
+    width: auto;
+    font-size: 30px;
+}
+#num{
+    position: relative;
+    left: 130px;
+    font-size: 50px;
+    top: 105px;
+    z-index: 2;
+}
