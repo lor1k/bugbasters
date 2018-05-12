@@ -1,0 +1,8 @@
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Головна</a>
+  <a href="search.html">Пошук</a>
+  <a href="faq.html">FAQ</a> 
+  <a href="javascript:void(0);" style="font-size:17px;" class="icon" onclick="Navigation();">&#9776;</a>
+  <a href="registration.html" class = "sign-up">Sign Up</a>
+  <a href="login.html" class = "log-in">Log In</a>
+</div>

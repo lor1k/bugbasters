@@ -8,15 +8,53 @@
     padding: 20px;
     margin: 0 auto;
 }
+.content-main > div{
+  margin: 10px auto;
+}
 .jumbotron > h1{
     font-family: 'Philosopher', sans-serif;
     color: blue;
     text-shadow: 3px 3px 3px yellow;
 }
-.text-main{
+.content-main > div > div{
+  position: relative;
+  animation: arrowd 4s linear infinite;
+}
+h1{
+    position: relative;
     font-family: 'Limelight', cursive;
     font-weight: bold;
     font-size: 20px;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    animation: text 2s ease-out infinite;
+}
+@keyframes arrowd{
+  0%{
+    left: 0;
+  }
+  25%{
+    left: 60px;
+  }
+  75%{
+    left: -60px;
+  }
+  100%{
+    left: 0;
+  }
+}
+@keyframes text{
+    0%{
+    letter-spacing: 0;
+  }
+    30%{
+    letter-spacing: 3px;
+  }
+    60%{
+    letter-spacing: 3px;
+  }
+    90%{
+    letter-spacing: 0;
+  }
 }
 .topnav {
   overflow: hidden;
