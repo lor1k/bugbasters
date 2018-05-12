@@ -31,11 +31,11 @@ function placeMarker(latLng, map) {
     if (dist(latLng) < delta) {
         pushMarker({lat: univX, lng: univY},map,"University",null,google.maps.Animation.BOUNCE,"img/flag.png");
         cntMarkers--;
-        var score = 50. * (cntMarkers+1) / cntMarkers;
-        score = Math.round(score);
-        alert("Правильно!\nВы набрали " + score + "очков");
+        $(".ButtonOfLocation").prop('disabled',false); 
+        $(".ButtonOfLocation").addClass('btn-primary');
+        $(".ButtonOfLocation").removeClass('btn-danger');
     } else {
-        alert("Тут университета нет");
+        alert("Тут університету немає");
     }
 }
 
