@@ -20,6 +20,9 @@
   position: relative;
   animation: arrowd 4s linear infinite;
 }
+#chnutab > tr:first-child {
+  text-align: right;
+}
 .loaderArea {
   background: #fff;
   overflow: hidden;
@@ -219,7 +222,7 @@ h1{
 }
 .content-choose > div{
     margin-top: 20px;
-    text-align: center;
+    padding: 20px;
 }
 .quest1 > div > div{
     background-color: snow;

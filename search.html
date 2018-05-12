@@ -25,30 +25,30 @@
 <div class="container-fluid text-center jumbotron" style = "background-color: #e9ecef">
     <div class="row search-block">
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-         <select class="selectpicker1" data-live-search="true" id = "select1">
+         <select class="selectpicker1" data-live-search="true" id = "select1" onchange = "Search();">
           <option selected>Фах(не обрано) : </option>
-          <option>Комп'ютерні науки</option>
-          <option>Менеджмент</option>
+          <option value = "1">Комп'ютерні науки</option>
+          <option value = "2">Менеджмент</option>
       </select>
     </div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-       <select class="selectpicker2" data-live-search="true" id = "select2">
+       <select class="selectpicker2" data-live-search="true" id = "select2" onchange = "Search();">
           <option selected>Спеціальність(не обрано) : </option>
-          <option>121 - Програмна інженерія</option>
-          <option>122 - Комп'ютерні науки</option>
+          <option value = "1">121 - Програмна інженерія</option>
+          <option value = "2">122 - Комп'ютерні науки</option>
       </select>
     </div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-       <select class="selectpicker3" data-live-search="true" id = "select3">
+       <select class="selectpicker3" data-live-search="true" id = "select3" onchange = "Search();">
           <option selected>Місто(не обрано) : </option>
-          <option>Миколаїв</option>
-          <option>Київ</option>
+          <option value = "1">Миколаїв</option>
+          <option value = "2">Київ</option>
       </select>
     </div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-       <select class="selectpicker4" data-live-search="true" id = "select4">
+       <select class="selectpicker4" data-live-search="true" id = "select4" onchange = "Search();">
           <option selected>ВНЗ(не обрано) : </option>
-          <option>ЧНУ ім. Петра Могили</option>
+          <option value = "1">ЧНУ ім. Петра Могили</option>
       </select>
     </div>
     </div>
@@ -57,10 +57,9 @@
   <div class="row" onclick="location.href='CHNU.html'">
       <div class = "col-lg-2 align-self-center text-center">
     <img src="img/temp_logo.png" alt="img1" class = "item" style = "height: 100px;"></div>
-      <div class = "col-lg-10"><h4>ЧНУ ім.Петра Могили</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eligendi, laudantium eius dignissimos unde cumque vero. Eius quod aperiam exercitationem quidem cum porro dolor ea, beatae quaerat fugit, consequatur odio ratione, vero deleniti ipsa officiis enim in ipsam, inventore quo laboriosam consectetur sed! Sapiente tenetur, culpa laboriosam? Perspiciatis sint deleniti totam nostrum cumque, velit provident porro dolorum delectus voluptas voluptatum.</div>
+      <div class = "col-lg-10" id = "u1"><h4>ЧНУ ім.Петра Могили</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eligendi, laudantium eius dignissimos unde cumque vero. Eius quod aperiam exercitationem quidem cum porro dolor ea, beatae quaerat fugit, consequatur odio ratione, vero deleniti ipsa officiis enim in ipsam, inventore quo laboriosam consectetur sed! Sapiente tenetur, culpa laboriosam? Perspiciatis sint deleniti totam nostrum cumque, velit provident porro dolorum delectus voluptas voluptatum.</div>
   </div>
-  <div class="row" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, animi repellat beatae rerum harum nisi tempora, earum veniam modi, dolore iusto sit voluptate eius magni porro quidem quae libero delectus cum temporibus pariatur. Porro necessitatibus corporis, laborum commodi veniam tempora. Explicabo inventore facilis rem neque, architecto, pariatur eaque ea. Quae.</div>
-  <div class="row" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas numquam sunt excepturi voluptatum praesentium dolorem ratione deserunt quo asperiores corporis, reiciendis nesciunt eius cumque reprehenderit libero rem vitae, quasi tempore velit eum expedita accusamus! Ratione dicta, labore autem saepe quidem voluptates placeat est et nam molestias! Tenetur esse, eveniet ad!</div>
-  <div class="row" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eligendi consequuntur quaerat laborum nobis soluta modi nostrum voluptates iusto atque tempora minima quas, consequatur ut architecto ducimus est temporibus quis excepturi ad accusantium officia autem saepe cupiditate. Cum voluptates, labore odit. Voluptatem, perferendis, fuga optio velit quo est tenetur beatae.</div>
+  <div class="row" id = "u2" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, animi repellat beatae rerum harum nisi tempora, earum veniam modi, dolore iusto sit voluptate eius magni porro quidem quae libero delectus cum temporibus pariatur. Porro necessitatibus corporis, laborum commodi veniam tempora. Explicabo inventore facilis rem neque, architecto, pariatur eaque ea. Quae.</div>
+  <div class="row" id = "u3" onclick="location.href='#'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas numquam sunt excepturi voluptatum praesentium dolorem ratione deserunt quo asperiores corporis, reiciendis nesciunt eius cumque reprehenderit libero rem vitae, quasi tempore velit eum expedita accusamus! Ratione dicta, labore autem saepe quidem voluptates placeat est et nam molestias! Tenetur esse, eveniet ad!</div>
 </div>
 </body>
