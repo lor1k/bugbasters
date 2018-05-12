@@ -408,7 +408,6 @@ jQuery.fn.puzzle = function( intUserSize ){
             //AEI calculating
             intSize = gcd(jImg.width(),jImg.height());
 			if (partCalc() > 30) {
-                alert("Конченное соотношение сторон, кто это делал?\nGen " + partCalc() + " pieces, adapt it");
                 while (partCalc() > 30) {
 			        intSize = intSize << 1;
                 }
