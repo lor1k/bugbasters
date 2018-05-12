@@ -46,6 +46,10 @@ function Search(){
 		uni2.style.display = "none";
 		uni3.style.display = "none";
 	}
+	if (sel1 == 0 && sel2 == 0 && sel3 == 0 && sel4 == 0) {
+		uni2.style.display = "block";
+		uni3.style.display = "block";
+	}
 }
   $(window).on('load', setTimeout(function () {
   $('.loaderArea').css("display", "none");

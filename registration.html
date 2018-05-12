@@ -26,6 +26,20 @@
   <a href="registration.html" class = "sign-up" style = "background-color: #555;">Sign Up</a>
   <a href="login.html" class = "log-in">Log In</a>
 </div>
+<div class="container">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          Нажаль наш back-end розробник пішов на Вищу Математику і не повернувся. :-(
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Прикро!</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
 <div class="container reg-block">
 	<div class="row">
 	<div class="col-md-6 col-lg-4 col-sm-8 reg-form">
@@ -58,7 +72,7 @@
    						<option value = "2">НКІ ім.Адмірала Макарова</option>
  					</select>
 				</div>
-					<button type="submit" class="btn btn-success">Зареєструватися</button>		
+					<input type="button" value = "Зареєструватися" class="btn btn-success" data-toggle="modal" data-target="#myModal">		
 			</form>
 	</div>
 </div>

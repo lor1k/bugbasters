@@ -27,6 +27,20 @@
   <a href="registration.html" class = "sign-up">Sign Up</a>
   <a href="login.html" class = "log-in" style = "background-color: #555;">Log In</a>
 </div>
+<div class="container">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          Нажаль наш back-end розробник пішов на Вищу Математику і не повернувся. :-(
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Прикро!</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
 <div class="container reg-block">
 	<div class="row">
 	
@@ -41,7 +55,7 @@
 					<label for="passw">Пароль</label>
 					<input type="password" class="form-control" id = "passw" required>
 				</div>
-					<button type="submit" class="btn btn-success">Увійти</button>		
+					<input type="button" value = "Увійти" class="btn btn-success" data-toggle="modal" data-target="#myModal">	
 			</form>
 	</div>
 	
