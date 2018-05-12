@@ -22,3 +22,8 @@ function Add(){
 	if (document.getElementById('selection1').value == 2){$('.Add-reg').css("display", "block");}
 	else {$('.Add-reg').css("display", "none");}	
 }
+
+  $(window).on('load', setTimeout(function () {
+  $('.loaderArea').css("display", "none");
+  $('.loader').css("display", "none");}, 500)
+)
