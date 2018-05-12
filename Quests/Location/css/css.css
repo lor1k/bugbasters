@@ -1,0 +1,34 @@
+h1 {
+    font-size: 175%;
+    text-align: center;
+}
+
+#map {
+    height: 750px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.map-info {
+    max-width: 15vw;
+    margin-top: 7px;
+    font-size: 110%;
+    text-align: center;
+    font-weight: 400;
+}
+
+#coords {
+    width: 50%;
+    min-width: 200px;
+    text-align: center;
+}
+
+table tr:first-child {
+    font-weight: 700;
+    color: green;
+}
+
+.wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
