@@ -277,3 +277,20 @@ h1{
     background-color: snow;
     margin: 3px;
 }
+
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+.map-info {
+    max-width: 15vw;
+    margin-top: 7px;
+    font-size: 110%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.map-info-wrapper {
+    text-align: center;
+}
