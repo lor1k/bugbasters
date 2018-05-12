@@ -14,6 +14,9 @@
 #res{
   display: none;
 }
+.search-content > div{
+  cursor: pointer;
+}
 .jumbotron > h1{
     font-family: 'Philosopher', sans-serif;
     color: blue;
