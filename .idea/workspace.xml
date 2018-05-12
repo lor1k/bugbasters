@@ -4,7 +4,6 @@
     <list default="true" id="0049b146-552e-4c65-971e-2d4056f8577b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/CHNU.html" afterPath="$PROJECT_DIR$/CHNU.html" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" afterPath="$PROJECT_DIR$/scripts/script.js" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="CHNU.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CHNU.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="170" column="58" lean-forward="true" selection-start-line="170" selection-start-column="58" selection-end-line="170" selection-end-column="58" />
+            <state relative-caret-position="636">
+              <caret line="172" column="20" lean-forward="false" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -40,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+            <state relative-caret-position="296">
+              <caret line="64" column="66" lean-forward="false" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -55,8 +54,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CHNU.html" />
         <option value="$PROJECT_DIR$/style/style.css" />
+        <option value="$PROJECT_DIR$/CHNU.html" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
       </list>
     </option>
@@ -193,12 +192,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526131603818</updated>
-      <workItem from="1526131610334" duration="1666000" />
+      <workItem from="1526131610334" duration="1902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1666000" />
+    <option name="totallyTimeSpent" value="1902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="178" width="1456" height="876" extended-state="0" />
@@ -243,16 +242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHNU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="170" column="58" lean-forward="true" selection-start-line="170" selection-start-column="58" selection-end-line="170" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
@@ -261,10 +250,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CHNU.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="172" column="20" lean-forward="false" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        <state relative-caret-position="296">
+          <caret line="64" column="66" lean-forward="false" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
           <folding />
         </state>
       </provider>
