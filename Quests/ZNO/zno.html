@@ -5,7 +5,7 @@
     <title>Title</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../style/style.css" type="text/css">
-
+    <link rel="stylesheet" href="../Result/result.css" type = "text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -33,16 +33,16 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-          Дякую тобі за допомог, юначе! Успіхів тобі у вступі в ВНЗ.
+          Дякую тобі за допомогу, юначе! Успіхів тобі у вступі в ВНЗ.
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.href='../Result/result.html'">Спасибі!</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Дякую!</button>
         </div>
       </div>
     </div>
   </div> 
 </div>
-  <div class="container">
+  <div class="container" id = "pre-res">
   <div class="row">
   <div style = "margin: 0 auto; padding: 10px;">
       <form action="" id = "formaZNO">
@@ -121,5 +121,13 @@
   </div>
 </div>
 </div>
-
+<div class="container" id = "res">
+    <div class="row">
+  <div class="result_screen">
+<p>Вітаю! Твій результат: </p>
+      <p id="num">0</p>
+    <canvas id="canvas" style="height: auto; width: 100%; z-index: 1;"></canvas>
+  </div>
+  </div>
+  </div>
 </body>

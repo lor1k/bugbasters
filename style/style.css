@@ -11,6 +11,9 @@
 .content-main > div{
   margin: 10px auto;
 }
+#res{
+  display: none;
+}
 .jumbotron > h1{
     font-family: 'Philosopher', sans-serif;
     color: blue;
