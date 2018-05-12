@@ -49,5 +49,5 @@ function Search(){
 }
   $(window).on('load', setTimeout(function () {
   $('.loaderArea').css("display", "none");
-  $('.loader').css("display", "none");}, 500)
+  $('.loader').css("display", "none");}, 400)
 )

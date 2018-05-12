@@ -13,6 +13,11 @@
      <script src="scripts/script.js"></script>
 </head>
 <body>
+  <div class="loaderArea">
+<div class="loader"><div class="dot"></div>
+<div class="left-dot"></div>
+<div class="right-dot"></div></div>
+</div>
 	<div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Головна</a>
   <a href="search.html">Пошук</a>
@@ -22,7 +27,7 @@
   <a href="login.html" class = "log-in">Log In</a>
 </div>
 <div class="container content-choose">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style = "padding: 0;">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -160,7 +165,9 @@
 <li>Кафедра гражданcкого и уголовногo пpава и процесcа
 <li>Кафедра иcтории и тeории государcтва и пpава
 </ul></div>
-  <div class="block" style = "height: 200px; background-color: #F2F2F2" onclick="location.href='preview.html'"><h4>Блок для квесту від університета.</h4></div>
+  <div class="block" onclick="location.href='preview.html'" style = "background-color: #f2f2f2; cursor: pointer;">
+    <img src="img/questy.png" alt="quest" class = "d-block w-50" style = "margin: 0 auto;">
+  </div>
   <div class="block" style = "height: 200px; background-color: #F2F2F2"><h4>Блок для google maps api. На карті можна буде побачити місцерозташування університету.</h4></div>  
 </div>
 </body>
